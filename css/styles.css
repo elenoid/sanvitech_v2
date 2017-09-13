@@ -1,0 +1,245 @@
+.navigation-clean.navbar-inverse .navbar-brand:hover {
+  color:#f0f0f0;
+}
+.navigation-clean .navbar-brand {
+  font-weight:bold;
+  color:inherit;
+  font-family:'Audiowide';
+  text-transform:uppercase;
+}
+.navbar.navbar-default.navigation-clean {
+  background-color:#ffffff;
+  border-bottom:7px solid #2669b0;
+  box-shadow:0px 0px 10px #ccc;
+}
+.navbar-brand.navbar-link{
+  height: 100%;
+  padding: 0;
+  padding-top: 3px;
+  padding-left: 30px;
+}
+
+.nav.navbar-nav.navbar-right li{
+  transition-duration: 1s;
+}
+
+.nav.navbar-nav.navbar-right li:hover{
+  background-color: #f2f2f2;
+}
+
+.navbar-brand.navbar-link img{
+  height:35px;
+  display:inline-block;
+}
+
+body {
+  background-color:#f2f2f2;
+}
+
+p {
+  color:#666;
+}
+
+.navbar-margin {
+  margin-top:40px;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top.navigation-clean {
+  border-bottom:5px solid #fff;
+  box-shadow:0px 2px 10px #555;
+  background-color:#ffffff;
+  border-bottom:7px solid #2669b0;
+  box-shadow:0px 0px 10px #ccc;
+}
+
+.jumbotron-background{
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-color:#2799d6;
+  background-image:url(/img/water2.jpg);
+  border-bottom:5px solid #fff;
+}
+
+.jumbotron{
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-color:#2799d6;
+  background-image:url(/img/water.jpg);
+  padding-top:100px;
+  padding-bottom:150px;
+  margin-bottom:0px;
+}
+
+.jumbotron .btn-info{
+  background-color: #f18e4c;
+}
+
+.jumbotron h1{
+  color:#fff;
+  font-family:'Audiowide';
+  text-transform:uppercase;
+}
+
+.jumbotron p {
+  color:#eee;
+}
+
+
+.panel-heading__border-white{
+  background-color: #fff;
+  height: 100%;
+  width: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.panel{
+  position: relative;
+}
+
+.panel-group .panel {
+  border:1px solid #285789;
+}
+
+.panel-group .panel + .panel {
+  margin-top:8px;
+}
+
+.panel-default>.panel-heading,
+.panel-heading-styles {
+  padding-left:60px;
+  padding-bottom:15px;
+  padding-top:15px;
+  background-color: #2669b0;
+}
+
+.panel-group{
+  margin:0px;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.panel-body{
+  padding-left:70px;
+  background-color: #ffffff;
+}
+
+#accordion-1 .panel-body a,
+#accordion-1 .panel-body ul{
+  color: #666;
+}
+
+#accordion-2 .panel-body i {
+  color: #888;
+  display: block;
+}
+
+#accordion-1 i {
+  margin-right:5px;
+}
+
+#projects-horizontal{
+  position: relative;
+  top: -100px;
+}
+
+.projects-horizontal .item{
+  cursor: default;
+}
+
+.projects-horizontal__item1 .img-responsive,
+.projects-horizontal__item2 .img-responsive,
+.projects-horizontal__item3 .img-responsive,
+.projects-horizontal__item4 .img-responsive{
+  transition-duration: 0.5s;
+}
+
+.projects-horizontal__item1:hover .img-responsive,
+.projects-horizontal__item2:hover .img-responsive,
+.projects-horizontal__item3:hover .img-responsive,
+.projects-horizontal__item4:hover .img-responsive{
+  transform: scale(1.05);
+}
+
+.projects-horizontal .img-responsive {
+  border:1px solid #2669b0;
+  border-right:7px solid #2669b0;
+  background-size:contain;
+  height:185px;
+  width:100%;
+}
+
+.simple-slider{
+  padding: 60px;
+  background-color: #fff;
+  margin-bottom: 35px;
+}
+
+.simple-slider__img{
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.brands a img {
+  display:inline-block;
+  margin:10px 20px;
+  text-align:left;
+  vertical-align:middle;
+}
+
+.brands {
+  padding:20px;
+  height:90px;
+  text-align:left;
+  color:#313437;
+  background-color:#2669b0;
+}
+
+.brands a {
+  display:block;
+  padding:40px 0;
+}
+
+
+.brands img {
+  display:inline-block;
+  margin:10px 20px;
+  vertical-align:middle;
+  height:30px;
+}
+
+.footer-clean p{
+  margin: 0;
+}
+
+
+.footer-clean a{
+  color: #444;
+}
+.footer-clean__map{
+  height: 120px;
+}
+
+.footer-clean img{
+  margin: 0 auto;
+  display: block;
+  height: 120px;
+}
+
+#map{
+  height: 100%;
+  width: 100%;
+}
+
+.about-text h1{
+  color: #333;
+}
+
+.contact-background{
+  background-image: url(/img/water-contact2.jpg);
+  background-size: cover;
+}
