@@ -70,6 +70,13 @@ p {
   margin-bottom:0px;
 }
 
+@media (max-width: 768px) {
+  .jumbotron-background .container{
+    width: 100%;
+    padding: 0;
+  }
+}
+
 .jumbotron .btn-info{
   background-color: #f18e4c;
 }
@@ -121,7 +128,7 @@ p {
 }
 
 .panel-body{
-  padding-left:70px;
+  padding: 30px 50px 20px 60px;
   background-color: #ffffff;
 }
 
@@ -160,6 +167,7 @@ p {
 .projects-horizontal__item3:hover .img-responsive,
 .projects-horizontal__item4:hover .img-responsive{
   transform: scale(1.05);
+  box-shadow: 3px 3px 3px #ccc;
 }
 
 .projects-horizontal .img-responsive {
@@ -225,7 +233,7 @@ p {
 }
 
 .footer-clean img{
-  margin: 0 auto;
+  margin-left: auto;
   display: block;
   height: 120px;
 }
@@ -242,4 +250,12 @@ p {
 .contact-background{
   background-image: url(/img/water-contact2.jpg);
   background-size: cover;
+}
+
+
+@media (max-width: 768px) {
+  .item.social img{
+    margin: 0 auto;
+    margin-top: 50px;
+  }
 }
