@@ -66,7 +66,7 @@ p {
   background-color:#2799d6;
   background-image:url(/img/water.jpg);
   padding-top:100px;
-  padding-bottom:150px;
+  padding-bottom:100px;
   margin-bottom:0px;
 }
 
@@ -85,29 +85,33 @@ p {
   color:#fff;
   font-family:'Audiowide';
   text-transform:uppercase;
+  font-size: 60px;
 }
 
 .jumbotron p {
   color:#eee;
 }
 
+.projects-horizontal{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 
 .panel-heading__border-white{
-  background-color: #fff;
-  height: 100%;
+  background-color: #2669b0;
+  height: 42px;
   width: 3px;
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.panel{
+.panel-group .panel{
   position: relative;
+  border-radius: 2px;
 }
 
-.panel-group .panel {
-  border:1px solid #285789;
-}
 
 .panel-group .panel + .panel {
   margin-top:8px;
@@ -116,9 +120,10 @@ p {
 .panel-default>.panel-heading,
 .panel-heading-styles {
   padding-left:60px;
-  padding-bottom:15px;
-  padding-top:15px;
-  background-color: #2669b0;
+  padding-bottom:12px;
+  padding-top:12px;
+  background-color: #6d859e;
+  border-radius: 2px;
 }
 
 .panel-group{
@@ -130,6 +135,11 @@ p {
 .panel-body{
   padding: 30px 50px 20px 60px;
   background-color: #ffffff;
+}
+
+.panel-body i{
+  color: #999;
+  display: block;
 }
 
 #accordion-1 .panel-body a,
@@ -151,35 +161,99 @@ p {
   top: -100px;
 }
 
+.projects-horizontal .panel-body{
+    padding: 20px 50px 10px 15px;
+}
+
 .projects-horizontal .item{
   cursor: default;
+  padding-top: 60px;
 }
 
-.projects-horizontal__item1 .img-responsive,
-.projects-horizontal__item2 .img-responsive,
-.projects-horizontal__item3 .img-responsive,
-.projects-horizontal__item4 .img-responsive{
+.projects-horizontal .panel{
+  margin-top: 0;
+  margin-left: -15px;
+  margin-right: -15px;
+  box-shadow: none;
+}
+
+.projects-horizontal .panel-group{
+  margin: 0px;
+}
+
+/*.panel-title{
+  color: #444;
+}*/
+
+.projects-horizontal .panel-collapse.collapse.in{
+  border-top: 1px solid  #eee;
+}
+
+.projects-horizontal__item1 .img-responsive{
   transition-duration: 0.5s;
+  transition-delay: 0.2s;
 }
 
-.projects-horizontal__item1:hover .img-responsive,
-.projects-horizontal__item2:hover .img-responsive,
-.projects-horizontal__item3:hover .img-responsive,
-.projects-horizontal__item4:hover .img-responsive{
-  transform: scale(1.05);
-  box-shadow: 3px 3px 3px #ccc;
+.item1:hover .projects-horizontal__item1 .img-responsive{
+  border-radius: 3px;
+  transform: scale(1.04);
+}
+
+.projects-horizontal__item1{
+  transition-duration: 0.5s;
+  padding: 15px 0;
+}
+
+.projects-horizontal .item .name{
+  display: inline-block;
+}
+
+.item1:hover .projects-horizontal__item1{
+    background-color: #eee;
+    border-radius: 3px;
 }
 
 .projects-horizontal .img-responsive {
-  border:1px solid #2669b0;
-  border-right:7px solid #2669b0;
+  border-radius: 2px;
+  /*border:1px solid #2669b0;*/
+  border-right:4px solid #2669b0;
   background-size:contain;
-  height:185px;
+  height:162px;
+  /*ratio:5:3*/
   width:100%;
 }
 
+#accordion-5{
+  padding-left: 45px;
+}
+
+#accordion-6{
+  padding-right: 45px;
+}
+
+.header{
+  background-image: url(/img/water3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2669b0;
+  height: 48px;
+}
+
+.header h3{
+  margin: 0;
+  padding: 10px 0 0 60px;
+}
+
+.header-weiteres{
+  margin-bottom: 10px;
+}
+
+.header-foto{
+  margin-top: 120px;
+}
+
 .simple-slider{
-  padding: 60px;
+  padding: 40px 60px;
   background-color: #fff;
   margin-bottom: 35px;
 }
@@ -200,8 +274,7 @@ p {
 }
 
 .brands {
-  padding:20px;
-  height:90px;
+  padding:10px;
   text-align:left;
   color:#313437;
   background-color:#2669b0;
@@ -218,6 +291,10 @@ p {
   margin:10px 20px;
   vertical-align:middle;
   height:30px;
+}
+
+.footer-clean{
+  padding: 30px 0;
 }
 
 .footer-clean p{
