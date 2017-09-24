@@ -58,7 +58,7 @@ p {
   background-size:cover;
   background-color:#2799d6;
   background-image:url(/img/water2.jpg);
-  border-bottom:5px solid #fff;
+  /*border-bottom:5px solid #fff;*/
 }
 
 .jumbotron{
