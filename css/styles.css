@@ -33,7 +33,8 @@
 }
 
 body {
-  background-color:#f2f2f2;
+  /*background-color:#f2f2f2;*/
+  background-color: #e3eaf0;
 }
 
 p {
@@ -134,7 +135,7 @@ p {
 
 .panel-body{
   padding: 30px 50px 20px 60px;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
 }
 
 .panel-body i{
@@ -231,6 +232,11 @@ p {
   padding-right: 45px;
 }
 
+.accordeon-background{
+  background-color: #fff;
+  padding: 20px 0 20px 0;
+}
+
 .header{
   background-image: url(/img/water3.jpg);
   background-repeat: no-repeat;
@@ -244,18 +250,18 @@ p {
   padding: 10px 0 0 60px;
 }
 
-.header-weiteres{
+/*.header-weiteres{
   margin-bottom: 10px;
-}
+}*/
 
-.header-foto{
+/*.header-foto{
   margin-top: 120px;
-}
+}*/
 
 .simple-slider{
   padding: 40px 60px;
   background-color: #fff;
-  margin-bottom: 35px;
+  /*margin-bottom: 35px;*/
 }
 
 .simple-slider__img{
@@ -277,7 +283,7 @@ p {
   padding:10px;
   text-align:left;
   color:#313437;
-  background-color:#2669b0;
+  background-color:#27588d;
 }
 
 .brands a {
