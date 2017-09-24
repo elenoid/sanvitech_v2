@@ -127,6 +127,15 @@ p {
   border-radius: 2px;
 }
 
+.accordeon-background .panel-default>.panel-heading,
+.accordeon-background .panel-heading-styles {
+  padding-left:60px;
+  padding-bottom:12px;
+  padding-top:12px;
+  background-color: #6d859e;
+  border-radius: 2px;
+}
+
 .panel-group{
   margin:0px;
   margin-top:15px;
@@ -134,6 +143,11 @@ p {
 }
 
 .panel-body{
+  padding: 30px 50px 20px 60px;
+  background-color: #fff;
+}
+
+.accordeon-background .panel-body{
   padding: 30px 50px 20px 60px;
   background-color: #f2f2f2;
 }
