@@ -40,7 +40,6 @@
 }
 
 body {
-  /*background-color:#f2f2f2;*/
   background-color: #e3eaf0;
 }
 
@@ -65,7 +64,6 @@ p {
   background-size:cover;
   background-color:#2799d6;
   background-image:url(/img/water2.jpg);
-  /*border-bottom:5px solid #fff;*/
 }
 
 .jumbotron{
@@ -78,10 +76,14 @@ p {
   margin-bottom:0px;
 }
 
+
 @media (max-width: 768px) {
   .jumbotron-background .container{
     width: 100%;
     padding: 0;
+  }
+  .navbar-margin .about-background .row{
+    margin: 0;
   }
 }
 
@@ -109,6 +111,58 @@ p {
   color:#eee;
 }
 
+.about-background{
+  background-color:rgba(39,153,214,0.470588);
+  background-image:url(/img/water-about2.jpg);
+}
+
+ .about-background__about{
+  background-image:url(/img/water-about1.jpg);
+  padding: 50px 0 100px 45px;
+ }
+ @media (max-width: 350px) {
+   .about-background__about{
+    padding: 100px 0 50px 15px;
+   }
+ }
+
+ .container.about-text{
+   background-color:#ffffff;
+   padding:60px;
+ }
+
+@media (max-width: 768px) {
+  .about-background{
+    background-image:none;
+  }
+}
+
+@media (max-width: 768px){
+  .container.about-text{
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 350px){
+  .container.about-text{
+    padding: 0 15px;
+  }
+}
+
+.about-text__row{
+  margin-top:20px;
+  margin-bottom:400px;
+}
+
+@media (max-width: 768px){
+  .about-text__row{
+    margin-top: 50px;
+    margin-bottom:50px;
+  }
+}
+
+
+
 .projects-horizontal{
   padding-top: 30px;
   padding-bottom: 30px;
@@ -128,7 +182,6 @@ p {
   position: relative;
   border-radius: 2px;
 }
-
 
 .panel-group .panel + .panel {
   margin-top:8px;
@@ -192,6 +245,10 @@ p {
   top: -100px;
 }
 
+.projects-horizontal a:hover{
+  text-decoration: none;
+}
+
 .projects-horizontal .panel-body{
     padding: 20px 50px 10px 15px;
 }
@@ -211,10 +268,6 @@ p {
 .projects-horizontal .panel-group{
   margin: 0px;
 }
-
-/*.panel-title{
-  color: #444;
-}*/
 
 .projects-horizontal .panel-collapse.collapse.in{
   border-top: 1px solid  #eee;
@@ -246,11 +299,9 @@ p {
 
 .projects-horizontal .img-responsive {
   border-radius: 2px;
-  /*border:1px solid #2669b0;*/
   border-right:4px solid #2669b0;
   background-size:contain;
   height:162px;
-  /*ratio:5:3*/
   width:100%;
 }
 
@@ -279,6 +330,12 @@ p {
   }
 }
 
+@media (max-width: 350px) {
+  .projects-horizontal{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
 
 #accordion-5{
   padding-left: 45px;
@@ -288,10 +345,16 @@ p {
   padding-right: 45px;
 }
 
+.simple-slider{
+  padding: 40px 60px;
+  background-color: #fff;
+}
+
 @media (max-width: 767px) {
   #accordion-5 {
    padding: 0 25px;
  }
+
 
   #accordion-6 {
     padding: 0 25px;
@@ -301,8 +364,25 @@ p {
     margin-top: 8px;
   }
 
+  .accordeon-background .panel-body {
+    padding: 30px 20px 20px 30px;
+  }
+
   .simple-slider {
     padding: 40px 40px;
+  }
+}
+
+@media (max-width: 350px) {
+  #accordion-5 {
+    padding: 0 0px;
+  }
+  #accordion-6 {
+    padding: 0 0px;
+  }
+
+  .simple-slider {
+    padding: 30px 15px;
   }
 }
 
@@ -330,19 +410,6 @@ p {
   }
 }
 
-/*.header-weiteres{
-  margin-bottom: 10px;
-}*/
-
-/*.header-foto{
-  margin-top: 120px;
-}*/
-
-.simple-slider{
-  padding: 40px 60px;
-  background-color: #fff;
-  /*margin-bottom: 35px;*/
-}
 
 .simple-slider__img{
   height: 100%;
@@ -350,12 +417,6 @@ p {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-}
-
-@media (max-width: 767px) {
-  .simple-slider {
-    padding: 40px 40px;
-  }
 }
 
 .brands a img {
@@ -421,16 +482,63 @@ p {
   background-size: cover;
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 990px) {
   .item.social img{
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean__map {
+    height: 300px;
+  }
+
+
+  .footer-clean .item{
+    text-align: left;
+    padding: 0 45px;
+    padding-bottom: 30px;
+  }
+  .footer-clean .item.text{
+    text-align: left;
+  }
+}
+
+@media (max-width: 350px) {
+  .footer-clean .item{
+    padding: 0 30px;
+    padding-bottom: 30px;
+  }
+
+  .footer-clean__map {
+    height: 200px;
   }
 }
 
 @media (max-width: 1200px) {
   .panel-heading__border-white{
     background-color: inherit;
+  }
+}
+
+@media (max-width: 500px) {
+  .accordeon-background .panel-default>.panel-heading, .accordeon-background .panel-heading-styles {
+    padding-left: 15px;
+  }
+}
+
+.contact-clean{
+  background-image:url(/img/water-contact1.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding-top:150px;
+  padding-bottom:150px;
+}
+
+@media (max-width: 400px) {
+  .contact-clean{
+    padding-top:50px;
+    padding-bottom:50px;
   }
 }

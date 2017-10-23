@@ -1,8 +1,8 @@
 
 
-Sanvitech Version2
+/// Sanvitech Version2 ///
 
-
+- Bilder sind zu gross
 
 
 ENDTEST:
@@ -15,4 +15,3 @@ ENDTEST:
 |Google SEO:
 
 -Google Speedtest
-  
